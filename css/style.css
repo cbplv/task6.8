@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background-color: rgb(192, 192, 192);
 
 }
 ul{
@@ -28,4 +28,28 @@ form {
 
 h2 {
     padding-left: 20px;
+}
+
+input {
+    font-size: larger;
+    height: 20px;
+    width: 256px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid rgb(117, 116, 116);;
+    height: 40px;
+    width: 512px;
+    border-radius: 5px;
+    font-size: large;
+}
+#duplicateField {
+    color: black;
+    font-size: larger;
+    padding-left: 15px;
 }
